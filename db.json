@@ -1,0 +1,182 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "nombre": "El sexto sentido",
+      "autor": "M. Night Shyamalan",
+      "genero": "Drama",
+      "cantidad": 4
+    },
+    {
+      "idBook": "2",
+      "nombre": "TEORIA RELATIVIDAD 2",
+      "autor": "ALBERT E",
+      "genero": "CIENTIFICO",
+      "cant": "2",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "nombre": "Todo sobre mi madre",
+      "autor": "Almodobar",
+      "genero": "Drama"
+    },
+    {
+      "id": 4,
+      "nombre": "300",
+      "autor": "Zack Snyder",
+      "genero": "Acción"
+    },
+    {
+      "id": 5,
+      "nombre": "El silencio de los corderos",
+      "autor": "Jonathan Demme",
+      "genero": "Drama"
+    },
+    {
+      "id": 6,
+      "nombre": "Forrest Gump",
+      "autor": "Robert Zemeckis",
+      "genero": "Comedia"
+    },
+    {
+      "id": 7,
+      "nombre": "Las Hurdes",
+      "autor": "Luis Buñuel",
+      "genero": "Documental"
+    },
+    {
+      "idBook": "8",
+      "nombre": "SODOMA EN EL VATICANO",
+      "autor": "FREDERIC",
+      "genero": "HISTORIA",
+      "cant": "2",
+      "id": 8
+    },
+    {
+      "idBook": "9",
+      "nombre": "LA GATA LUNA",
+      "autor": "JUANA MARCELA",
+      "category": "INFANTIL",
+      "id": 9
+    },
+    {
+      "idBook": "10",
+      "nombre": "EL GATO CON BOTAS",
+      "autor": "NERUDA",
+      "genero": "INFANTIL",
+      "cant": "1",
+      "id": 10
+    },
+    {
+      "idBook": "11",
+      "nombre": "LOS INVENSIBLES",
+      "autor": "PEDRITO",
+      "genero": "INFANTIL",
+      "cant": "5",
+      "id": 11
+    },
+    {
+      "idBook": "12",
+      "nombre": "LA LLORONA 3",
+      "autor": "JUAQUIN",
+      "genero": "DRAMA",
+      "cant": "3",
+      "id": 12
+    },
+    {
+      "idBook": null,
+      "nombre": "LA LLORONA",
+      "autor": "JUANA MARCELA",
+      "genero": "DRAMA",
+      "id": 13
+    },
+    {
+      "idBook": "14",
+      "nombre": "LA DIVINA COMEDIA",
+      "autor": "DANTE",
+      "genero": "DRAMA",
+      "cantidad": "1",
+      "id": 14
+    },
+    {
+      "idBook": null,
+      "nombre": "",
+      "autor": "",
+      "genero": "",
+      "id": 15
+    },
+    {
+      "idBook": "16",
+      "nombre": "PRUEBA1",
+      "autor": "PRUEBA1",
+      "genero": "PRUEBA1",
+      "cantidad": "2",
+      "id": 16
+    },
+    {
+      "idBook": "",
+      "nombre": "",
+      "autor": "",
+      "category": "",
+      "id": 17
+    },
+    {
+      "idBook": "12",
+      "nombre": "LA LLORONA 2",
+      "autor": "JUANA MARCELA",
+      "category": "TERROR",
+      "id": 18
+    },
+    {
+      "idBook": "12",
+      "nombre": "EL CORONEL",
+      "autor": "GABO",
+      "category": "PRUEBA",
+      "id": 19
+    },
+    {
+      "idBook": null,
+      "nombre": "EL PRINCIPITO",
+      "autor": "PEDRO ",
+      "genero": "INFANTIL",
+      "cantidad": "2",
+      "id": 20
+    },
+    {
+      "idBook": "21",
+      "nombre": "EL SEÑOR DE LOS ANILLOS - LA COMARCA",
+      "autor": "J. R. R. Tolkien",
+      "genero": "LEGENDARIOS",
+      "cantidad": "10",
+      "id": 21
+    }
+  ],
+  "requestBook": [
+    {
+      "idBook": 2,
+      "NamePerson": "Juana B",
+      "Date": "01/12/2023"
+    },
+    {
+      "id": "1",
+      "PersonR": "",
+      "DateR": ""
+    },
+    {
+      "id": "4",
+      "PersonR": "Juana M",
+      "DateR": "2023-12-08"
+    },
+    {
+      "id": "8",
+      "PersonR": "Juana B",
+      "DateR": "2023-12-10"
+    },
+    {
+      "id": "21",
+      "PersonR": "Johana Benavidez",
+      "DateR": "2023-12-09"
+    }
+  ]
+}

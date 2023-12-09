@@ -150,14 +150,17 @@
       "genero": "LEGENDARIOS",
       "cantidad": "10",
       "id": 21
+    },
+    {
+      "idBook": "22",
+      "nombre": "EL SEÑOR DE LOS ANILLOS - LAS DOS TORRES",
+      "autor": "J. R. R. Tolkien",
+      "genero": "LEGENDARIOS",
+      "cantidad": "12",
+      "id": 22
     }
   ],
   "requestBook": [
-    {
-      "idBook": 2,
-      "NamePerson": "Juana B",
-      "Date": "01/12/2023"
-    },
     {
       "id": "1",
       "PersonR": "",
@@ -177,6 +180,11 @@
       "id": "21",
       "PersonR": "Johana Benavidez",
       "DateR": "2023-12-09"
+    },
+    {
+      "id": "14",
+      "PersonR": "Johana Benavidez",
+      "DateR": "2023-12-12"
     }
   ]
 }

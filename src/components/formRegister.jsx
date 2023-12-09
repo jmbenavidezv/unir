@@ -1,6 +1,3 @@
-import './App.css';
-import {useState} from 'react';
-//import formRegister from './components/formRegister';
 import React from 'react'
 
 const [userInfo, setUserInfo] = useState({
@@ -8,41 +5,6 @@ const [userInfo, setUserInfo] = useState({
     autor: "",
     cantidad: "",
   });
-
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-         <p>
-          <h1>Biblioteca UNIR - Colombia </h1>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <formRegister />
-       
-   
-      </header>
-      <body className='App-body'>
-
-
-      </body>
-
-
-
-     
-    </div>
-    
-  );
-}
-
 
 function FrmRegisterBook() {
 
@@ -83,6 +45,3 @@ function FrmRegisterBook() {
      
 }
 
-
-
-export default App;

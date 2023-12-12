@@ -1,14 +1,14 @@
 import React, { useState,useEffect } from "react";
 import axios from 'axios';
 import Global from "../Global";
+import { useGetBooks } from '../hooks/useGetBook';
 
-/*Función para solicitar prestamo de libros, en este se hace llamado GET al json para cargar 
-//listado de libro, y llamado POST para almacenar prestamo*/
+/*Función para solicitar prestamo de libros, en este se hace llamado a hook para cargar 
+listado de libros, y llamado POST para almacenar prestamo*/
 
 const RequestBook = (props) => {
     const [status, setStatus] = useState(false);
-    const [books, setBooks] = useState([]);
-
+   
     const idBook = React.useRef();
     const Person = React.useRef();
     const Date = React.useRef();
@@ -38,25 +38,10 @@ const RequestBook = (props) => {
                 setStatus(false);
             });
     };
-    //Recorrido a data de libros para listarlos en combo selector.
-    const fetchBooks = () => {
-        const url2 = Global.urlLibrary;
-              
-        axios.get(url2 + "/books")
-            .then(res => {
-                setBooks(res.data);
-            })
-            .catch(error => {
-                console.error('Error consultando libros:', error);
-            });
-    };
-
-  
-    useEffect(() => {
-        fetchBooks(); // Obtener libros
     
-    }, []);
-
+    //Llamado a hooks que consume API y retorna listado de libros
+    const {books}=useGetBooks();
+   
     //Construcción de formulario de solicitud
     return (
         <div>

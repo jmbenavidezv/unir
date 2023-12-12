@@ -2,30 +2,11 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Global from './../Global';
 import { NavLink } from 'react-router-dom';
+import { useGetBooks } from '../hooks/useGetBook';
 
 //Se crea función para mostrar listdo de libros
 const Books = () => {
-    const [books, setBooks] = useState([]);
-    const [status, setStatus] = useState(false);
-
-    //Se hace llamado al API para consultar los libros
-        const loadBooks = () => {
-        const url = Global.urlLibrary;
-                
-        axios.get(url + "/books")
-            .then(res => {
-                setBooks(res.data);
-                setStatus(true);
-            })
-            .catch(error => {
-                console.error('Error al cargar Información de libros:', error);
-                setStatus(false);
-            });
-    };
-
-    useEffect(() => {
-        loadBooks();
-    }, []);
+   const {books,status}=useGetBooks();
 
     //Construcción de formulario con listado de libros, se implementa mediante tabla.
     return (

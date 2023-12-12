@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-import Global from './../Global';
 import { NavLink } from 'react-router-dom';
 import { useGetBooks } from '../hooks/useGetBook';
 
